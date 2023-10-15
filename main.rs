@@ -68,7 +68,7 @@ fn main() {
         input.clear();
         
         //get an initial balance from the user
-        println!("Please provide an intitial balance for the account.");
+        println!("Please provide an initial balance for the account.");
 
         io::stdin().read_line(&mut input).unwrap();
         let amount: u64 = input.trim().parse().expect("Input is not an integer.");
